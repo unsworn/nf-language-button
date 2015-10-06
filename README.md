@@ -1,6 +1,6 @@
 # Language Button
 
-Arduino sketch powering the [nf-bird-stories](https://github.com/unsworn/nf-bird-stories) station
+Arduino sketch powering the [nf-birdstories](https://github.com/unsworn/nf-birdstories) station
 
 ## Functionality
 
