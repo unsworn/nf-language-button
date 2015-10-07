@@ -4,6 +4,8 @@
  See README.md in the git repo for details.
 */
 
+const String VERSION = "0.0.1";
+ 
 // Pins used
 const int BUTTON_PIN = 2;
 const int LED_PIN = 13;
@@ -41,7 +43,7 @@ void setup() {
 
   // Leondardo needs to wait for serial to be ready
   while (!Serial); 
-  Serial.println("\nnf-language-button is ready!\n");
+  Serial.println("\nnf-language-button version " + VERSION + " is ready!");
   
   // Enable the internal pull-up resistor for the button pin
   pinMode(BUTTON_PIN, INPUT_PULLUP);
